@@ -1,0 +1,96 @@
+body {
+    background-color: #F9FAFB;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+
+}
+
+.box {
+    background-color: #F55A5A;
+    width: 55px;
+    height: 40px;
+    border: solid 4px #E5E5E5;
+    border-radius: 1px;
+}
+
+select, button {
+    border: solid 1px #D1D5DB;
+    background-color: #FFFFFF;
+    height: 44px;
+    border-radius: 4px;
+
+}
+
+select {
+    padding: 10px;
+    font-size: 1em;
+    width: 312px;
+    color: #111827;
+    
+}
+
+button {
+    color: #374151;
+    padding: 0 10px;
+
+}
+
+main {
+    background-color: #877f7f34;
+    width: 600px;
+    min-height: 600px;
+    margin: 0 auto;
+
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 25px 15px;
+    height: 40px;
+
+}
+
+.color-container {
+    height: 570px;
+    display: flex;
+}
+
+.color {
+    width: 120px;
+    height: 100%;
+}
+
+.hex-container {
+    height: 50px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#one {
+    background-color: #F55A5A;
+}
+
+#two{
+    background-color: #2B283A;
+}
+
+#three{
+    background-color: #FBF3AB;
+}
+
+
+#four{
+    background-color: #AAD1B6;
+}
+
+
+#five{
+    background-color: #A626D3;
+}
+
