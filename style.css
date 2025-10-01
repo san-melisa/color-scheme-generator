@@ -29,6 +29,10 @@ select {
     
 }
 
+select option {
+    background-color: #FFFFFF;
+}
+
 button {
     color: #374151;
     padding: 0 10px;
@@ -70,27 +74,5 @@ main {
     display: flex;
     justify-content: space-around;
 
-}
-
-#one {
-    background-color: #F55A5A;
-}
-
-#two{
-    background-color: #2B283A;
-}
-
-#three{
-    background-color: #FBF3AB;
-}
-
-
-#four{
-    background-color: #AAD1B6;
-}
-
-
-#five{
-    background-color: #A626D3;
 }
 
