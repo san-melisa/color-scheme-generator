@@ -6,11 +6,18 @@ body {
 }
 
 .box {
-    background-color: #F55A5A;
     width: 55px;
     height: 40px;
     border: solid 4px #E5E5E5;
     border-radius: 1px;
+    cursor: pointer;
+}
+
+
+.custom-select {
+    position: relative;
+    display: inline-block;
+    width: 312px;
 }
 
 select, button {
@@ -19,18 +26,26 @@ select, button {
     height: 44px;
     border-radius: 4px;
 
+
 }
 
 select {
-    padding: 10px;
+    padding: 10px 32px 10px 10px; 
     font-size: 1em;
     width: 312px;
     color: #111827;
+    appearance: none;
     
 }
 
-select option {
-    background-color: #FFFFFF;
+.custom-select .arrow {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #9CA3AF;
+    
 }
 
 button {
